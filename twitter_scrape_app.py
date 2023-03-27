@@ -42,12 +42,7 @@ choice = option_menu(
     options=["Scrape from twitter", "Upload to database"],
     icons=["search", "boxes"],
     default_index=0,
-    orientation="horizontal",
-    styles={
-        "container": {"padding": "0!important", "background-color": "blue", "size": "cover"},
-        "icon": {"color": "red", "font-size": "16px"},
-        "nav-link": {"font-size": "20px", "text-align": "center", "margin": "-2px", "--hover-color": "#29BDE9 "},
-        "nav-link-selected": {"background-color": "black"}, }
+    orientation="vertical"
 )
 
 
